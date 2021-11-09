@@ -1,0 +1,76 @@
+# Dependency Table For: github.com/prometheus/prometheus/cmd/prometheus
+
+| | c o n f i g - S | d i s c o v e r y - S | d i s c o v e r y / a w s - S | d i s c o v e r y / a z u r e - S | d i s c o v e r y / c o n s u l - S | d i s c o v e r y / d i g i t a l o c e a n - S | d i s c o v e r y / d n s - S | d i s c o v e r y / e u r e k a - S | d i s c o v e r y / f i l e - S | d i s c o v e r y / g c e - S | d i s c o v e r y / h e t z n e r - S | d i s c o v e r y / h t t p - S | d i s c o v e r y / i n s t a l l - S | d i s c o v e r y / k u b e r n e t e s - S | d i s c o v e r y / l e g a c y m a n a g e r - S | d i s c o v e r y / l i n o d e - S | d i s c o v e r y / m a r a t h o n - S | d i s c o v e r y / m o b y - S | d i s c o v e r y / o p e n s t a c k - S | d i s c o v e r y / p u p p e t d b - S | d i s c o v e r y / r e f r e s h - S | d i s c o v e r y / s c a l e w a y - S | d i s c o v e r y / t a r g e t g r o u p - S | d i s c o v e r y / t r i t o n - S | d i s c o v e r y / u y u n i - S | d i s c o v e r y / x d s - S | d i s c o v e r y / z o o k e e p e r - S | n o t i f i e r - S | p k g / e x e m p l a r - S | p k g / g a t e - S | p k g / l a b e l s - S | p k g / l o g g i n g - S | p k g / p o o l - S | p k g / r e l a b e l - S | p k g / r u l e f m t - S | p k g / r u n t i m e - S | p k g / t e x t p a r s e - S | p k g / t i m e s t a m p - S | p k g / v a l u e - S | p r o m p b - S | p r o m q l - S | p r o m q l / p a r s e r - S | r u l e s - S | s c r a p e - S | s t o r a g e - S | s t o r a g e / r e m o t e - S | t e m p l a t e - S | t s d b - S | t s d b / a g e n t - S | t s d b / c h u n k e n c - S | t s d b / c h u n k s - S | t s d b / e n c o d i n g - S | t s d b / e r r o r s - S | t s d b / f i l e u t i l - S | t s d b / g o v e r s i o n - S | t s d b / i n d e x - S | t s d b / r e c o r d - S | t s d b / t o m b s t o n e s - S | t s d b / t s d b u t i l - S | t s d b / w a l - S | u t i l / h t t p u t i l - S | u t i l / o s u t i l - S | u t i l / s t a t s - S | u t i l / s t r u t i l - S | u t i l / t e s t s t o r a g e - S | u t i l / t e s t u t i l - S | u t i l / t r e e c a c h e - S | w e b - S | w e b / a p i / v 1 - S | w e b / u i - S |
+| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
+| **cmd/prometheus** | **S** | **S** | | | | | | | | | | | **S** | | **S** | | | | | | | | **S** | | | | | **S** | **S** | | **S** | **S** | | **S** | | **S** | | | | | **S** | | **S** | **S** | **S** | **S** | | **S** | **S** | | | | | | | | | | | | | | | **S** | | | | **S** | | |
+| config | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/aws | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/azure | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/consul | | S | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/digitalocean | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/dns | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/eureka | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/file | | S | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/gce | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/hetzner | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/http | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/install | | | S | S | S | S | S | S | S | S | S | S | | S | | S | S | S | S | S | | S | | S | S | S | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/kubernetes | | S | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/legacymanager | | S | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/linode | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/marathon | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/moby | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/openstack | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/puppetdb | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| discovery/refresh | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/scaleway | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/triton | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/uyuni | | S | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| discovery/xds | | S | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | S | | | | | | |
+| discovery/zookeeper | | S | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | S | | | |
+| notifier | S | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | S | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| pkg/exemplar | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| pkg/relabel | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| pkg/rulefmt | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | S | | | | | S | | | | | | | | | | | | | | | | | | | | | | | |
+| pkg/textparse | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| promql | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | S | S | | | S | | | S | | | S | | S | | | | | | | | | | | | | S | | S | S | | | | |
+| promql/parser | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | S | S | | | | | | S | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| rules | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | S | | | S | S | | S | S | | | S | | S | | | | | | | | | | | | | | | | | S | | | | | | |
+| scrape | S | | | | | | | | | | | | | | | | | | | | | | S | | | | | | S | | S | | S | S | | | S | S | S | | | | | | S | | | | | | | | | | | | | | | | | S | | | | | | | | |
+| storage | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | | | | | | S | S | | S | | | | | | S | | | | | | | | | | | |
+| storage/remote | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | S | S | S | | S | | | S | | | S | | | | S | S | | | | | S | S | | | | | | S | | | S | | | | | | | | | | |
+| template | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | |
+| tsdb | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | S | | | | | | | S | | | | | S | S | S | S | S | S | S | S | S | S | S | | | | | | | | | | |
+| tsdb/agent | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | S | | | | | | | S | S | | S | | | S | | | | | | S | | | S | | | | | | | | | | |
+| tsdb/chunks | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | S | S | | | | | | | | | | | | | | | | |
+| tsdb/index | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | S | | | | | | S | S | S | S | | | | | | | | | | | | | | | | |
+| tsdb/record | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | S | | | | | | S | S | | | | | | S | | | | | | | | | | | | |
+| tsdb/tombstones | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | S | S | S | | | | | | | | | | | | | | | | |
+| tsdb/tsdbutil | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | S | | | | | | | | | | | | | | | | | | | |
+| tsdb/wal | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | S | | S | S | | | S | S | | | | | | | | | | | | |
+| util/httputil | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| util/teststorage | | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | S | | | | | | | | | | | | | | S | | | S | | | | | | | | | | | | | | | | | | S | | | | |
+| web | S | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | | S | | | | | | | S | S | | S | S | S | S | S | | S | S | | | | | | | | S | | | | | S | | | | | | | | S | S |
+| web/api/v1 | S | | | | | | | | | | | | | | | | | | | | | | | | | | | | S | | S | | | | | | S | S | | | S | S | S | S | S | S | | S | | | | | | | | S | | | | | S | | S | | | | | | | |
+
+### Legend
+
+* Rows - Importing packages
+* columns - Imported packages
+
+
+#### Meaning Of Row And Row Header Formatting
+
+* **Bold** - God package (can use all packages)
+* `Code` - Database package (can only use tool and other database packages)
+* _Italic_ - Tool package (foundational, no dependencies)
+* no formatting - Standard package (can only use tool and database packages)
+
+
+#### Meaning Of Letters In Table Columns
+
+* G - God package (can use all packages)
+* D - Database package (can only use tool and other database packages)
+* T - Tool package (foundational, no dependencies)
+* S - Standard package (can only use tool and database packages)
