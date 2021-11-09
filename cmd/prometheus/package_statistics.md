@@ -93,12 +93,12 @@ Start package - cmd/prometheus
 [cmd/prometheus](#package-cmdprometheus), [notifier](#package-notifier), [scrape](#package-scrape), [storage/remote](#package-storageremote), [tsdb](#package-tsdb), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package config
+* [web](#package-web): [discovery](#package-discovery)
+* [web/api/v1](#package-webapiv1): [discovery](#package-discovery)
 * [notifier](#package-notifier): [discovery](#package-discovery)
 * [scrape](#package-scrape): [discovery](#package-discovery)
 * [storage/remote](#package-storageremote): [discovery](#package-discovery)
 * [tsdb](#package-tsdb): [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel)
-* [web](#package-web): [discovery](#package-discovery)
-* [web/api/v1](#package-webapiv1): [discovery](#package-discovery)
 
 
 ### Package discovery
@@ -499,12 +499,12 @@ Start package - cmd/prometheus
 [cmd/prometheus](#package-cmdprometheus), [rules](#package-rules), [template](#package-template), [util/httputil](#package-utilhttputil), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package promql
-* [web/api/v1](#package-webapiv1): [util/teststorage](#package-utilteststorage), `util/testutil`
 * [cmd/prometheus](#package-cmdprometheus): [util/teststorage](#package-utilteststorage), `util/testutil`
 * [rules](#package-rules): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel), [tsdb](#package-tsdb), `tsdb/encoding`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/wal](#package-tsdbwal), `util/stats`, [util/teststorage](#package-utilteststorage), `util/testutil`
 * [template](#package-template): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, `pkg/value`, [promql/parser](#package-promqlparser), [storage](#package-storage), [tsdb](#package-tsdb), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/stats`, [util/teststorage](#package-utilteststorage), `util/testutil`
 * [util/httputil](#package-utilhttputil): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, `pkg/value`, [promql/parser](#package-promqlparser), [storage](#package-storage), [tsdb](#package-tsdb), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/stats`, `util/strutil`, [util/teststorage](#package-utilteststorage), `util/testutil`
 * [web](#package-web): [util/teststorage](#package-utilteststorage), `util/testutil`
+* [web/api/v1](#package-webapiv1): [util/teststorage](#package-utilteststorage), `util/testutil`
 
 
 #### Packages Shielded From All Users Of Package promql
@@ -539,9 +539,9 @@ Start package - cmd/prometheus
 [cmd/prometheus](#package-cmdprometheus), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package rules
+* [cmd/prometheus](#package-cmdprometheus): [pkg/rulefmt](#package-pkgrulefmt)
 * [web](#package-web): [pkg/rulefmt](#package-pkgrulefmt)
 * [web/api/v1](#package-webapiv1): [pkg/rulefmt](#package-pkgrulefmt), [template](#package-template)
-* [cmd/prometheus](#package-cmdprometheus): [pkg/rulefmt](#package-pkgrulefmt)
 
 
 #### Packages Shielded From All Users Of Package rules
@@ -583,11 +583,11 @@ Start package - cmd/prometheus
 
 #### Packages Shielded From Users Of Package storage
 * [tsdb/tombstones](#package-tsdbtombstones): [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), [tsdb/tsdbutil](#package-tsdbtsdbutil)
-* [promql/parser](#package-promqlparser): [pkg/exemplar](#package-pkgexemplar), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil)
 * [tsdb/index](#package-tsdbindex): [pkg/exemplar](#package-pkgexemplar), [tsdb/tsdbutil](#package-tsdbtsdbutil)
+* [promql/parser](#package-promqlparser): [pkg/exemplar](#package-pkgexemplar), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil)
+* [storage/remote](#package-storageremote): [tsdb/tsdbutil](#package-tsdbtsdbutil)
 * [tsdb/record](#package-tsdbrecord): [pkg/exemplar](#package-pkgexemplar), [tsdb/tsdbutil](#package-tsdbtsdbutil)
 * [scrape](#package-scrape): `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil)
-* [storage/remote](#package-storageremote): [tsdb/tsdbutil](#package-tsdbtsdbutil)
 
 
 ### Package storage/remote
@@ -603,9 +603,9 @@ Start package - cmd/prometheus
 [cmd/prometheus](#package-cmdprometheus), [tsdb/agent](#package-tsdbagent), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package storage/remote
-* [web/api/v1](#package-webapiv1): `pkg/gate`, `pkg/logging`, `prompb`
 * [cmd/prometheus](#package-cmdprometheus): `pkg/gate`, `prompb`
 * [tsdb/agent](#package-tsdbagent): `pkg/gate`, `pkg/logging`, `pkg/pool`, [pkg/textparse](#package-pkgtextparse), `pkg/value`, `prompb`, [scrape](#package-scrape), `util/osutil`
+* [web/api/v1](#package-webapiv1): `pkg/gate`, `pkg/logging`, `prompb`
 
 
 #### Packages Shielded From All Users Of Package storage/remote
@@ -640,12 +640,12 @@ Start package - cmd/prometheus
 [cmd/prometheus](#package-cmdprometheus), [promql](#package-promql), [tsdb/agent](#package-tsdbagent), [util/teststorage](#package-utilteststorage), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package tsdb
+* [web/api/v1](#package-webapiv1): `tsdb/goversion`
 * [cmd/prometheus](#package-cmdprometheus): `tsdb/goversion`
 * [promql](#package-promql): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel), `tsdb/encoding`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/wal](#package-tsdbwal)
 * [tsdb/agent](#package-tsdbagent): `tsdb/goversion`, [tsdb/index](#package-tsdbindex)
 * [util/teststorage](#package-utilteststorage): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, `tsdb/encoding`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/wal](#package-tsdbwal)
 * [web](#package-web): `tsdb/goversion`
-* [web/api/v1](#package-webapiv1): `tsdb/goversion`
 
 
 #### Packages Shielded From All Users Of Package tsdb
