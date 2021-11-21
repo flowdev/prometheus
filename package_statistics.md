@@ -1,24 +1,23 @@
 # Package Statistics
 
-Start package - cmd/prometheus
-
 | package | type | direct deps | all deps | users | max score | min score |
 | :- | :-: | -: | -: | -: | -: | -: |
 | [cmd/prometheus](#package-cmdprometheus) | [ \[G\] ](#legend) | [20](#direct-dependencies-imports-of-package-cmdprometheus) | [70](#all-including-transitive-dependencies-imports-of-package-cmdprometheus) | 0 | 0 | 0 |
-| [config](#package-config) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-config) | [4](#all-including-transitive-dependencies-imports-of-package-config) | [7](#packages-using-importing-package-config) | [8](#packages-shielded-from-users-of-package-config) | 0 |
-| [discovery](#package-discovery) | [ \[S\] ](#legend) | [1](#direct-dependencies-imports-of-package-discovery) | [1](#all-including-transitive-dependencies-imports-of-package-discovery) | [24](#packages-using-importing-package-discovery) | [1](#packages-shielded-from-users-of-package-discovery) | 0 |
+| [cmd/promtool](#package-cmdpromtool) | [ \[G\] ](#legend) | [21](#direct-dependencies-imports-of-package-cmdpromtool) | [59](#all-including-transitive-dependencies-imports-of-package-cmdpromtool) | 0 | 0 | 0 |
+| [config](#package-config) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-config) | [4](#all-including-transitive-dependencies-imports-of-package-config) | [8](#packages-using-importing-package-config) | [8](#packages-shielded-from-users-of-package-config) | 0 |
+| [discovery](#package-discovery) | [ \[S\] ](#legend) | [1](#direct-dependencies-imports-of-package-discovery) | [1](#all-including-transitive-dependencies-imports-of-package-discovery) | [26](#packages-using-importing-package-discovery) | [1](#packages-shielded-from-users-of-package-discovery) | 0 |
 | [discovery/aws](#package-discoveryaws) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-discoveryaws) | [4](#all-including-transitive-dependencies-imports-of-package-discoveryaws) | [1](#packages-using-importing-package-discoveryaws) | 0 | 0 |
 | [discovery/azure](#package-discoveryazure) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-discoveryazure) | [4](#all-including-transitive-dependencies-imports-of-package-discoveryazure) | [1](#packages-using-importing-package-discoveryazure) | 0 | 0 |
 | [discovery/consul](#package-discoveryconsul) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-discoveryconsul) | [3](#all-including-transitive-dependencies-imports-of-package-discoveryconsul) | [1](#packages-using-importing-package-discoveryconsul) | 0 | 0 |
 | [discovery/digitalocean](#package-discoverydigitalocean) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-discoverydigitalocean) | [3](#all-including-transitive-dependencies-imports-of-package-discoverydigitalocean) | [1](#packages-using-importing-package-discoverydigitalocean) | 0 | 0 |
 | [discovery/dns](#package-discoverydns) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-discoverydns) | [3](#all-including-transitive-dependencies-imports-of-package-discoverydns) | [1](#packages-using-importing-package-discoverydns) | 0 | 0 |
 | [discovery/eureka](#package-discoveryeureka) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-discoveryeureka) | [4](#all-including-transitive-dependencies-imports-of-package-discoveryeureka) | [1](#packages-using-importing-package-discoveryeureka) | 0 | 0 |
-| [discovery/file](#package-discoveryfile) | [ \[S\] ](#legend) | [2](#direct-dependencies-imports-of-package-discoveryfile) | [2](#all-including-transitive-dependencies-imports-of-package-discoveryfile) | [1](#packages-using-importing-package-discoveryfile) | 0 | 0 |
+| [discovery/file](#package-discoveryfile) | [ \[S\] ](#legend) | [2](#direct-dependencies-imports-of-package-discoveryfile) | [2](#all-including-transitive-dependencies-imports-of-package-discoveryfile) | [2](#packages-using-importing-package-discoveryfile) | 0 | 0 |
 | [discovery/gce](#package-discoverygce) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-discoverygce) | [4](#all-including-transitive-dependencies-imports-of-package-discoverygce) | [1](#packages-using-importing-package-discoverygce) | 0 | 0 |
 | [discovery/hetzner](#package-discoveryhetzner) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-discoveryhetzner) | [4](#all-including-transitive-dependencies-imports-of-package-discoveryhetzner) | [1](#packages-using-importing-package-discoveryhetzner) | 0 | 0 |
 | [discovery/http](#package-discoveryhttp) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-discoveryhttp) | [3](#all-including-transitive-dependencies-imports-of-package-discoveryhttp) | [1](#packages-using-importing-package-discoveryhttp) | 0 | 0 |
-| [discovery/install](#package-discoveryinstall) | [ \[S\] ](#legend) | [21](#direct-dependencies-imports-of-package-discoveryinstall) | [27](#all-including-transitive-dependencies-imports-of-package-discoveryinstall) | [1](#packages-using-importing-package-discoveryinstall) | [23](#packages-shielded-from-users-of-package-discoveryinstall) | [23](#packages-shielded-from-all-users-of-package-discoveryinstall) |
-| [discovery/kubernetes](#package-discoverykubernetes) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-discoverykubernetes) | [3](#all-including-transitive-dependencies-imports-of-package-discoverykubernetes) | [1](#packages-using-importing-package-discoverykubernetes) | 0 | 0 |
+| [discovery/install](#package-discoveryinstall) | [ \[S\] ](#legend) | [21](#direct-dependencies-imports-of-package-discoveryinstall) | [27](#all-including-transitive-dependencies-imports-of-package-discoveryinstall) | [2](#packages-using-importing-package-discoveryinstall) | [44](#packages-shielded-from-users-of-package-discoveryinstall) | [21](#packages-shielded-from-all-users-of-package-discoveryinstall) |
+| [discovery/kubernetes](#package-discoverykubernetes) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-discoverykubernetes) | [3](#all-including-transitive-dependencies-imports-of-package-discoverykubernetes) | [2](#packages-using-importing-package-discoverykubernetes) | 0 | 0 |
 | [discovery/legacymanager](#package-discoverylegacymanager) | [ \[S\] ](#legend) | [2](#direct-dependencies-imports-of-package-discoverylegacymanager) | [2](#all-including-transitive-dependencies-imports-of-package-discoverylegacymanager) | [1](#packages-using-importing-package-discoverylegacymanager) | 0 | 0 |
 | [discovery/linode](#package-discoverylinode) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-discoverylinode) | [3](#all-including-transitive-dependencies-imports-of-package-discoverylinode) | [1](#packages-using-importing-package-discoverylinode) | 0 | 0 |
 | [discovery/marathon](#package-discoverymarathon) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-discoverymarathon) | [4](#all-including-transitive-dependencies-imports-of-package-discoverymarathon) | [1](#packages-using-importing-package-discoverymarathon) | 0 | 0 |
@@ -31,22 +30,27 @@ Start package - cmd/prometheus
 | [discovery/uyuni](#package-discoveryuyuni) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-discoveryuyuni) | [3](#all-including-transitive-dependencies-imports-of-package-discoveryuyuni) | [1](#packages-using-importing-package-discoveryuyuni) | 0 | 0 |
 | [discovery/xds](#package-discoveryxds) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-discoveryxds) | [4](#all-including-transitive-dependencies-imports-of-package-discoveryxds) | [1](#packages-using-importing-package-discoveryxds) | [1](#packages-shielded-from-users-of-package-discoveryxds) | [1](#packages-shielded-from-all-users-of-package-discoveryxds) |
 | [discovery/zookeeper](#package-discoveryzookeeper) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-discoveryzookeeper) | [4](#all-including-transitive-dependencies-imports-of-package-discoveryzookeeper) | [1](#packages-using-importing-package-discoveryzookeeper) | [1](#packages-shielded-from-users-of-package-discoveryzookeeper) | [1](#packages-shielded-from-all-users-of-package-discoveryzookeeper) |
-| [notifier](#package-notifier) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-notifier) | [5](#all-including-transitive-dependencies-imports-of-package-notifier) | [2](#packages-using-importing-package-notifier) | 0 | 0 |
+| [documentation/examples/custom-sd/adapter](#package-documentationexamplescustom-sdadapter) | [ \[S\] ](#legend) | [2](#direct-dependencies-imports-of-package-documentationexamplescustom-sdadapter) | [2](#all-including-transitive-dependencies-imports-of-package-documentationexamplescustom-sdadapter) | [1](#packages-using-importing-package-documentationexamplescustom-sdadapter) | [1](#packages-shielded-from-users-of-package-documentationexamplescustom-sdadapter) | [1](#packages-shielded-from-all-users-of-package-documentationexamplescustom-sdadapter) |
+| [documentation/examples/custom-sd/adapter-usage](#package-documentationexamplescustom-sdadapter-usage) | [ \[G\] ](#legend) | [3](#direct-dependencies-imports-of-package-documentationexamplescustom-sdadapter-usage) | [4](#all-including-transitive-dependencies-imports-of-package-documentationexamplescustom-sdadapter-usage) | 0 | 0 | 0 |
+| [documentation/examples/remote_storage/example_write_adapter](#package-documentationexamplesremotestorageexamplewriteadapter) | [ \[G\] ](#legend) | [1](#direct-dependencies-imports-of-package-documentationexamplesremotestorageexamplewriteadapter) | [26](#all-including-transitive-dependencies-imports-of-package-documentationexamplesremotestorageexamplewriteadapter) | 0 | 0 | 0 |
+| [documentation/examples/remote_storage/remote_storage_adapter](#package-documentationexamplesremotestorageremotestorageadapter) | [ \[G\] ](#legend) | [5](#direct-dependencies-imports-of-package-documentationexamplesremotestorageremotestorageadapter) | [29](#all-including-transitive-dependencies-imports-of-package-documentationexamplesremotestorageremotestorageadapter) | 0 | 0 | 0 |
+| [documentation/examples/remote_storage/remote_storage_adapter/influxdb](#package-documentationexamplesremotestorageremotestorageadapterinfluxdb) | [ \[S\] ](#legend) | [1](#direct-dependencies-imports-of-package-documentationexamplesremotestorageremotestorageadapterinfluxdb) | [1](#all-including-transitive-dependencies-imports-of-package-documentationexamplesremotestorageremotestorageadapterinfluxdb) | [1](#packages-using-importing-package-documentationexamplesremotestorageremotestorageadapterinfluxdb) | 0 | 0 |
+| [notifier](#package-notifier) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-notifier) | [5](#all-including-transitive-dependencies-imports-of-package-notifier) | [3](#packages-using-importing-package-notifier) | 0 | 0 |
 | [pkg/exemplar](#package-pkgexemplar) | [ \[S\] ](#legend) | [1](#direct-dependencies-imports-of-package-pkgexemplar) | [1](#all-including-transitive-dependencies-imports-of-package-pkgexemplar) | [10](#packages-using-importing-package-pkgexemplar) | 0 | 0 |
 | [pkg/relabel](#package-pkgrelabel) | [ \[S\] ](#legend) | [1](#direct-dependencies-imports-of-package-pkgrelabel) | [1](#all-including-transitive-dependencies-imports-of-package-pkgrelabel) | [5](#packages-using-importing-package-pkgrelabel) | 0 | 0 |
-| [pkg/rulefmt](#package-pkgrulefmt) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-pkgrulefmt) | [28](#all-including-transitive-dependencies-imports-of-package-pkgrulefmt) | [1](#packages-using-importing-package-pkgrulefmt) | 0 | 0 |
-| [pkg/textparse](#package-pkgtextparse) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-pkgtextparse) | [3](#all-including-transitive-dependencies-imports-of-package-pkgtextparse) | [3](#packages-using-importing-package-pkgtextparse) | 0 | 0 |
-| [promql](#package-promql) | [ \[S\] ](#legend) | [11](#direct-dependencies-imports-of-package-promql) | [26](#all-including-transitive-dependencies-imports-of-package-promql) | [6](#packages-using-importing-package-promql) | [71](#packages-shielded-from-users-of-package-promql) | [2](#packages-shielded-from-all-users-of-package-promql) |
-| [promql/parser](#package-promqlparser) | [ \[S\] ](#legend) | [5](#direct-dependencies-imports-of-package-promqlparser) | [11](#all-including-transitive-dependencies-imports-of-package-promqlparser) | [5](#packages-using-importing-package-promqlparser) | [1](#packages-shielded-from-users-of-package-promqlparser) | 0 |
-| [rules](#package-rules) | [ \[S\] ](#legend) | [9](#direct-dependencies-imports-of-package-rules) | [29](#all-including-transitive-dependencies-imports-of-package-rules) | [3](#packages-using-importing-package-rules) | [4](#packages-shielded-from-users-of-package-rules) | [1](#packages-shielded-from-all-users-of-package-rules) |
-| [scrape](#package-scrape) | [ \[S\] ](#legend) | [11](#direct-dependencies-imports-of-package-scrape) | [17](#all-including-transitive-dependencies-imports-of-package-scrape) | [4](#packages-using-importing-package-scrape) | [7](#packages-shielded-from-users-of-package-scrape) | [1](#packages-shielded-from-all-users-of-package-scrape) |
-| [storage](#package-storage) | [ \[S\] ](#legend) | [6](#direct-dependencies-imports-of-package-storage) | [7](#all-including-transitive-dependencies-imports-of-package-storage) | [14](#packages-using-importing-package-storage) | [21](#packages-shielded-from-users-of-package-storage) | 0 |
-| [storage/remote](#package-storageremote) | [ \[S\] ](#legend) | [14](#direct-dependencies-imports-of-package-storageremote) | [25](#all-including-transitive-dependencies-imports-of-package-storageremote) | [3](#packages-using-importing-package-storageremote) | [13](#packages-shielded-from-users-of-package-storageremote) | [2](#packages-shielded-from-all-users-of-package-storageremote) |
+| [pkg/rulefmt](#package-pkgrulefmt) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-pkgrulefmt) | [28](#all-including-transitive-dependencies-imports-of-package-pkgrulefmt) | [2](#packages-using-importing-package-pkgrulefmt) | 0 | 0 |
+| [pkg/textparse](#package-pkgtextparse) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-pkgtextparse) | [3](#all-including-transitive-dependencies-imports-of-package-pkgtextparse) | [4](#packages-using-importing-package-pkgtextparse) | 0 | 0 |
+| [promql](#package-promql) | [ \[S\] ](#legend) | [11](#direct-dependencies-imports-of-package-promql) | [26](#all-including-transitive-dependencies-imports-of-package-promql) | [7](#packages-using-importing-package-promql) | [74](#packages-shielded-from-users-of-package-promql) | [2](#packages-shielded-from-all-users-of-package-promql) |
+| [promql/parser](#package-promqlparser) | [ \[S\] ](#legend) | [5](#direct-dependencies-imports-of-package-promqlparser) | [11](#all-including-transitive-dependencies-imports-of-package-promqlparser) | [6](#packages-using-importing-package-promqlparser) | [1](#packages-shielded-from-users-of-package-promqlparser) | 0 |
+| [rules](#package-rules) | [ \[S\] ](#legend) | [9](#direct-dependencies-imports-of-package-rules) | [29](#all-including-transitive-dependencies-imports-of-package-rules) | [4](#packages-using-importing-package-rules) | [4](#packages-shielded-from-users-of-package-rules) | 0 |
+| [scrape](#package-scrape) | [ \[S\] ](#legend) | [11](#direct-dependencies-imports-of-package-scrape) | [17](#all-including-transitive-dependencies-imports-of-package-scrape) | [5](#packages-using-importing-package-scrape) | [8](#packages-shielded-from-users-of-package-scrape) | [1](#packages-shielded-from-all-users-of-package-scrape) |
+| [storage](#package-storage) | [ \[S\] ](#legend) | [6](#direct-dependencies-imports-of-package-storage) | [7](#all-including-transitive-dependencies-imports-of-package-storage) | [15](#packages-using-importing-package-storage) | [21](#packages-shielded-from-users-of-package-storage) | 0 |
+| [storage/remote](#package-storageremote) | [ \[S\] ](#legend) | [14](#direct-dependencies-imports-of-package-storageremote) | [25](#all-including-transitive-dependencies-imports-of-package-storageremote) | [5](#packages-using-importing-package-storageremote) | [62](#packages-shielded-from-users-of-package-storageremote) | [1](#packages-shielded-from-all-users-of-package-storageremote) |
 | [template](#package-template) | [ \[S\] ](#legend) | [2](#direct-dependencies-imports-of-package-template) | [27](#all-including-transitive-dependencies-imports-of-package-template) | [3](#packages-using-importing-package-template) | [15](#packages-shielded-from-users-of-package-template) | 0 |
-| [tsdb](#package-tsdb) | [ \[S\] ](#legend) | [16](#direct-dependencies-imports-of-package-tsdb) | [19](#all-including-transitive-dependencies-imports-of-package-tsdb) | [6](#packages-using-importing-package-tsdb) | [26](#packages-shielded-from-users-of-package-tsdb) | [1](#packages-shielded-from-all-users-of-package-tsdb) |
+| [tsdb](#package-tsdb) | [ \[S\] ](#legend) | [16](#direct-dependencies-imports-of-package-tsdb) | [19](#all-including-transitive-dependencies-imports-of-package-tsdb) | [7](#packages-using-importing-package-tsdb) | [30](#packages-shielded-from-users-of-package-tsdb) | [1](#packages-shielded-from-all-users-of-package-tsdb) |
 | [tsdb/agent](#package-tsdbagent) | [ \[S\] ](#legend) | [9](#direct-dependencies-imports-of-package-tsdbagent) | [29](#all-including-transitive-dependencies-imports-of-package-tsdbagent) | [1](#packages-using-importing-package-tsdbagent) | 0 | 0 |
-| [tsdb/chunks](#package-tsdbchunks) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-tsdbchunks) | [3](#all-including-transitive-dependencies-imports-of-package-tsdbchunks) | [8](#packages-using-importing-package-tsdbchunks) | [3](#packages-shielded-from-users-of-package-tsdbchunks) | 0 |
-| [tsdb/index](#package-tsdbindex) | [ \[S\] ](#legend) | [6](#direct-dependencies-imports-of-package-tsdbindex) | [9](#all-including-transitive-dependencies-imports-of-package-tsdbindex) | [3](#packages-using-importing-package-tsdbindex) | 0 | 0 |
+| [tsdb/chunks](#package-tsdbchunks) | [ \[S\] ](#legend) | [3](#direct-dependencies-imports-of-package-tsdbchunks) | [3](#all-including-transitive-dependencies-imports-of-package-tsdbchunks) | [9](#packages-using-importing-package-tsdbchunks) | [3](#packages-shielded-from-users-of-package-tsdbchunks) | 0 |
+| [tsdb/index](#package-tsdbindex) | [ \[S\] ](#legend) | [6](#direct-dependencies-imports-of-package-tsdbindex) | [9](#all-including-transitive-dependencies-imports-of-package-tsdbindex) | [4](#packages-using-importing-package-tsdbindex) | 0 | 0 |
 | [tsdb/record](#package-tsdbrecord) | [ \[S\] ](#legend) | [5](#direct-dependencies-imports-of-package-tsdbrecord) | [10](#all-including-transitive-dependencies-imports-of-package-tsdbrecord) | [4](#packages-using-importing-package-tsdbrecord) | 0 | 0 |
 | [tsdb/tombstones](#package-tsdbtombstones) | [ \[S\] ](#legend) | [4](#direct-dependencies-imports-of-package-tsdbtombstones) | [9](#all-including-transitive-dependencies-imports-of-package-tsdbtombstones) | [3](#packages-using-importing-package-tsdbtombstones) | 0 | 0 |
 | [tsdb/tsdbutil](#package-tsdbtsdbutil) | [ \[S\] ](#legend) | [2](#direct-dependencies-imports-of-package-tsdbtsdbutil) | [4](#all-including-transitive-dependencies-imports-of-package-tsdbtsdbutil) | [2](#packages-using-importing-package-tsdbtsdbutil) | 0 | 0 |
@@ -80,6 +84,15 @@ Start package - cmd/prometheus
 #### All (Including Transitive) Dependencies (Imports) Of Package cmd/prometheus
 [config](#package-config), [discovery](#package-discovery), [discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/file](#package-discoveryfile), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/install](#package-discoveryinstall), [discovery/kubernetes](#package-discoverykubernetes), [discovery/legacymanager](#package-discoverylegacymanager), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/refresh](#package-discoveryrefresh), [discovery/scaleway](#package-discoveryscaleway), `discovery/targetgroup`, [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper), [notifier](#package-notifier), [pkg/exemplar](#package-pkgexemplar), `pkg/gate`, `pkg/labels`, `pkg/logging`, `pkg/pool`, [pkg/relabel](#package-pkgrelabel), [pkg/rulefmt](#package-pkgrulefmt), `pkg/runtime`, [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, `pkg/value`, `prompb`, [promql](#package-promql), [promql/parser](#package-promqlparser), [rules](#package-rules), [scrape](#package-scrape), [storage](#package-storage), [storage/remote](#package-storageremote), [template](#package-template), [tsdb](#package-tsdb), [tsdb/agent](#package-tsdbagent), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), [util/httputil](#package-utilhttputil), `util/osutil`, `util/stats`, `util/strutil`, [util/teststorage](#package-utilteststorage), `util/testutil`, `util/treecache`, [web](#package-web), [web/api/v1](#package-webapiv1), `web/ui`
 
+### Package cmd/promtool
+
+
+#### Direct Dependencies (Imports) Of Package cmd/promtool
+[config](#package-config), [discovery](#package-discovery), [discovery/file](#package-discoveryfile), [discovery/install](#package-discoveryinstall), [discovery/kubernetes](#package-discoverykubernetes), `discovery/targetgroup`, [notifier](#package-notifier), `pkg/labels`, [pkg/rulefmt](#package-pkgrulefmt), [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, [promql](#package-promql), [promql/parser](#package-promqlparser), [rules](#package-rules), [scrape](#package-scrape), [storage](#package-storage), [tsdb](#package-tsdb), [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/index](#package-tsdbindex)
+
+#### All (Including Transitive) Dependencies (Imports) Of Package cmd/promtool
+[config](#package-config), [discovery](#package-discovery), [discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/file](#package-discoveryfile), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/install](#package-discoveryinstall), [discovery/kubernetes](#package-discoverykubernetes), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/refresh](#package-discoveryrefresh), [discovery/scaleway](#package-discoveryscaleway), `discovery/targetgroup`, [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper), [notifier](#package-notifier), [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, `pkg/pool`, [pkg/relabel](#package-pkgrelabel), [pkg/rulefmt](#package-pkgrulefmt), [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, `pkg/value`, [promql](#package-promql), [promql/parser](#package-promqlparser), [rules](#package-rules), [scrape](#package-scrape), [storage](#package-storage), [template](#package-template), [tsdb](#package-tsdb), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/osutil`, `util/stats`, `util/strutil`, [util/teststorage](#package-utilteststorage), `util/testutil`, `util/treecache`
+
 ### Package config
 
 
@@ -90,15 +103,15 @@ Start package - cmd/prometheus
 [discovery](#package-discovery), `discovery/targetgroup`, `pkg/labels`, [pkg/relabel](#package-pkgrelabel)
 
 #### Packages Using (Importing) Package config
-[cmd/prometheus](#package-cmdprometheus), [notifier](#package-notifier), [scrape](#package-scrape), [storage/remote](#package-storageremote), [tsdb](#package-tsdb), [web](#package-web), [web/api/v1](#package-webapiv1)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool), [notifier](#package-notifier), [scrape](#package-scrape), [storage/remote](#package-storageremote), [tsdb](#package-tsdb), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package config
-* [tsdb](#package-tsdb): [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel)
-* [web](#package-web): [discovery](#package-discovery)
-* [web/api/v1](#package-webapiv1): [discovery](#package-discovery)
 * [notifier](#package-notifier): [discovery](#package-discovery)
 * [scrape](#package-scrape): [discovery](#package-discovery)
 * [storage/remote](#package-storageremote): [discovery](#package-discovery)
+* [tsdb](#package-tsdb): [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel)
+* [web](#package-web): [discovery](#package-discovery)
+* [web/api/v1](#package-webapiv1): [discovery](#package-discovery)
 
 
 ### Package discovery
@@ -111,7 +124,7 @@ Start package - cmd/prometheus
 `discovery/targetgroup`
 
 #### Packages Using (Importing) Package discovery
-[cmd/prometheus](#package-cmdprometheus), [config](#package-config), [discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/file](#package-discoveryfile), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/kubernetes](#package-discoverykubernetes), [discovery/legacymanager](#package-discoverylegacymanager), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/scaleway](#package-discoveryscaleway), [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool), [config](#package-config), [discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/file](#package-discoveryfile), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/kubernetes](#package-discoverykubernetes), [discovery/legacymanager](#package-discoverylegacymanager), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/scaleway](#package-discoveryscaleway), [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper), [documentation/examples/custom-sd/adapter](#package-documentationexamplescustom-sdadapter)
 
 #### Packages Shielded From Users Of Package discovery
 * [config](#package-config): `discovery/targetgroup`
@@ -199,7 +212,7 @@ Start package - cmd/prometheus
 [discovery](#package-discovery), `discovery/targetgroup`
 
 #### Packages Using (Importing) Package discovery/file
-[discovery/install](#package-discoveryinstall)
+[cmd/promtool](#package-cmdpromtool), [discovery/install](#package-discoveryinstall)
 
 ### Package discovery/gce
 
@@ -247,14 +260,15 @@ Start package - cmd/prometheus
 [discovery](#package-discovery), [discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/file](#package-discoveryfile), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/kubernetes](#package-discoverykubernetes), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/refresh](#package-discoveryrefresh), [discovery/scaleway](#package-discoveryscaleway), `discovery/targetgroup`, [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper), `util/osutil`, `util/strutil`, `util/treecache`
 
 #### Packages Using (Importing) Package discovery/install
-[cmd/prometheus](#package-cmdprometheus)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool)
 
 #### Packages Shielded From Users Of Package discovery/install
 * [cmd/prometheus](#package-cmdprometheus): [discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/file](#package-discoveryfile), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/kubernetes](#package-discoverykubernetes), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/refresh](#package-discoveryrefresh), [discovery/scaleway](#package-discoveryscaleway), [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper), `util/treecache`
+* [cmd/promtool](#package-cmdpromtool): [discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/refresh](#package-discoveryrefresh), [discovery/scaleway](#package-discoveryscaleway), [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper), `util/treecache`
 
 
 #### Packages Shielded From All Users Of Package discovery/install
-[discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/file](#package-discoveryfile), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/kubernetes](#package-discoverykubernetes), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/refresh](#package-discoveryrefresh), [discovery/scaleway](#package-discoveryscaleway), [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper), `util/treecache`
+[discovery/aws](#package-discoveryaws), [discovery/azure](#package-discoveryazure), [discovery/consul](#package-discoveryconsul), [discovery/digitalocean](#package-discoverydigitalocean), [discovery/dns](#package-discoverydns), [discovery/eureka](#package-discoveryeureka), [discovery/gce](#package-discoverygce), [discovery/hetzner](#package-discoveryhetzner), [discovery/http](#package-discoveryhttp), [discovery/linode](#package-discoverylinode), [discovery/marathon](#package-discoverymarathon), [discovery/moby](#package-discoverymoby), [discovery/openstack](#package-discoveryopenstack), [discovery/puppetdb](#package-discoverypuppetdb), [discovery/refresh](#package-discoveryrefresh), [discovery/scaleway](#package-discoveryscaleway), [discovery/triton](#package-discoverytriton), [discovery/uyuni](#package-discoveryuyuni), [discovery/xds](#package-discoveryxds), [discovery/zookeeper](#package-discoveryzookeeper), `util/treecache`
 
 ### Package discovery/kubernetes
 
@@ -266,7 +280,7 @@ Start package - cmd/prometheus
 [discovery](#package-discovery), `discovery/targetgroup`, `util/strutil`
 
 #### Packages Using (Importing) Package discovery/kubernetes
-[discovery/install](#package-discoveryinstall)
+[cmd/promtool](#package-cmdpromtool), [discovery/install](#package-discoveryinstall)
 
 ### Package discovery/legacymanager
 
@@ -426,6 +440,64 @@ Start package - cmd/prometheus
 #### Packages Shielded From All Users Of Package discovery/zookeeper
 `util/treecache`
 
+### Package documentation/examples/custom-sd/adapter
+
+
+#### Direct Dependencies (Imports) Of Package documentation/examples/custom-sd/adapter
+[discovery](#package-discovery), `discovery/targetgroup`
+
+#### All (Including Transitive) Dependencies (Imports) Of Package documentation/examples/custom-sd/adapter
+[discovery](#package-discovery), `discovery/targetgroup`
+
+#### Packages Using (Importing) Package documentation/examples/custom-sd/adapter
+[documentation/examples/custom-sd/adapter-usage](#package-documentationexamplescustom-sdadapter-usage)
+
+#### Packages Shielded From Users Of Package documentation/examples/custom-sd/adapter
+* [documentation/examples/custom-sd/adapter-usage](#package-documentationexamplescustom-sdadapter-usage): [discovery](#package-discovery)
+
+
+#### Packages Shielded From All Users Of Package documentation/examples/custom-sd/adapter
+[discovery](#package-discovery)
+
+### Package documentation/examples/custom-sd/adapter-usage
+
+
+#### Direct Dependencies (Imports) Of Package documentation/examples/custom-sd/adapter-usage
+`discovery/targetgroup`, [documentation/examples/custom-sd/adapter](#package-documentationexamplescustom-sdadapter), `util/strutil`
+
+#### All (Including Transitive) Dependencies (Imports) Of Package documentation/examples/custom-sd/adapter-usage
+[discovery](#package-discovery), `discovery/targetgroup`, [documentation/examples/custom-sd/adapter](#package-documentationexamplescustom-sdadapter), `util/strutil`
+
+### Package documentation/examples/remote_storage/example_write_adapter
+
+
+#### Direct Dependencies (Imports) Of Package documentation/examples/remote_storage/example_write_adapter
+[storage/remote](#package-storageremote)
+
+#### All (Including Transitive) Dependencies (Imports) Of Package documentation/examples/remote_storage/example_write_adapter
+[config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/gate`, `pkg/labels`, `pkg/logging`, `pkg/pool`, [pkg/relabel](#package-pkgrelabel), [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, `pkg/value`, `prompb`, [scrape](#package-scrape), [storage](#package-storage), [storage/remote](#package-storageremote), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/osutil`
+
+### Package documentation/examples/remote_storage/remote_storage_adapter
+
+
+#### Direct Dependencies (Imports) Of Package documentation/examples/remote_storage/remote_storage_adapter
+`documentation/examples/remote_storage/remote_storage_adapter/graphite`, [documentation/examples/remote_storage/remote_storage_adapter/influxdb](#package-documentationexamplesremotestorageremotestorageadapterinfluxdb), `documentation/examples/remote_storage/remote_storage_adapter/opentsdb`, `prompb`, [storage/remote](#package-storageremote)
+
+#### All (Including Transitive) Dependencies (Imports) Of Package documentation/examples/remote_storage/remote_storage_adapter
+[config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, `documentation/examples/remote_storage/remote_storage_adapter/graphite`, [documentation/examples/remote_storage/remote_storage_adapter/influxdb](#package-documentationexamplesremotestorageremotestorageadapterinfluxdb), `documentation/examples/remote_storage/remote_storage_adapter/opentsdb`, [pkg/exemplar](#package-pkgexemplar), `pkg/gate`, `pkg/labels`, `pkg/logging`, `pkg/pool`, [pkg/relabel](#package-pkgrelabel), [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, `pkg/value`, `prompb`, [scrape](#package-scrape), [storage](#package-storage), [storage/remote](#package-storageremote), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/osutil`
+
+### Package documentation/examples/remote_storage/remote_storage_adapter/influxdb
+
+
+#### Direct Dependencies (Imports) Of Package documentation/examples/remote_storage/remote_storage_adapter/influxdb
+`prompb`
+
+#### All (Including Transitive) Dependencies (Imports) Of Package documentation/examples/remote_storage/remote_storage_adapter/influxdb
+`prompb`
+
+#### Packages Using (Importing) Package documentation/examples/remote_storage/remote_storage_adapter/influxdb
+[documentation/examples/remote_storage/remote_storage_adapter](#package-documentationexamplesremotestorageremotestorageadapter)
+
 ### Package notifier
 
 
@@ -436,7 +508,7 @@ Start package - cmd/prometheus
 [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, `pkg/labels`, [pkg/relabel](#package-pkgrelabel)
 
 #### Packages Using (Importing) Package notifier
-[cmd/prometheus](#package-cmdprometheus), [web](#package-web)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool), [web](#package-web)
 
 ### Package pkg/exemplar
 
@@ -472,7 +544,7 @@ Start package - cmd/prometheus
 [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, `pkg/value`, [promql](#package-promql), [promql/parser](#package-promqlparser), [storage](#package-storage), [template](#package-template), [tsdb](#package-tsdb), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/stats`, `util/strutil`, [util/teststorage](#package-utilteststorage), `util/testutil`
 
 #### Packages Using (Importing) Package pkg/rulefmt
-[rules](#package-rules)
+[cmd/promtool](#package-cmdpromtool), [rules](#package-rules)
 
 ### Package pkg/textparse
 
@@ -484,7 +556,7 @@ Start package - cmd/prometheus
 [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, `pkg/value`
 
 #### Packages Using (Importing) Package pkg/textparse
-[scrape](#package-scrape), [storage/remote](#package-storageremote), [web/api/v1](#package-webapiv1)
+[cmd/promtool](#package-cmdpromtool), [scrape](#package-scrape), [storage/remote](#package-storageremote), [web/api/v1](#package-webapiv1)
 
 ### Package promql
 
@@ -496,10 +568,11 @@ Start package - cmd/prometheus
 [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, `pkg/value`, [promql/parser](#package-promqlparser), [storage](#package-storage), [tsdb](#package-tsdb), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/stats`, `util/strutil`, [util/teststorage](#package-utilteststorage), `util/testutil`
 
 #### Packages Using (Importing) Package promql
-[cmd/prometheus](#package-cmdprometheus), [rules](#package-rules), [template](#package-template), [util/httputil](#package-utilhttputil), [web](#package-web), [web/api/v1](#package-webapiv1)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool), [rules](#package-rules), [template](#package-template), [util/httputil](#package-utilhttputil), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package promql
 * [cmd/prometheus](#package-cmdprometheus): [util/teststorage](#package-utilteststorage), `util/testutil`
+* [cmd/promtool](#package-cmdpromtool): `util/stats`, [util/teststorage](#package-utilteststorage), `util/testutil`
 * [rules](#package-rules): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel), [tsdb](#package-tsdb), `tsdb/encoding`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/wal](#package-tsdbwal), `util/stats`, [util/teststorage](#package-utilteststorage), `util/testutil`
 * [template](#package-template): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, `pkg/value`, [promql/parser](#package-promqlparser), [storage](#package-storage), [tsdb](#package-tsdb), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/stats`, [util/teststorage](#package-utilteststorage), `util/testutil`
 * [util/httputil](#package-utilhttputil): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, `pkg/value`, [promql/parser](#package-promqlparser), [storage](#package-storage), [tsdb](#package-tsdb), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/stats`, `util/strutil`, [util/teststorage](#package-utilteststorage), `util/testutil`
@@ -520,7 +593,7 @@ Start package - cmd/prometheus
 [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, `pkg/timestamp`, `pkg/value`, [storage](#package-storage), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil), `util/strutil`
 
 #### Packages Using (Importing) Package promql/parser
-[pkg/rulefmt](#package-pkgrulefmt), [promql](#package-promql), [rules](#package-rules), [web](#package-web), [web/api/v1](#package-webapiv1)
+[cmd/promtool](#package-cmdpromtool), [pkg/rulefmt](#package-pkgrulefmt), [promql](#package-promql), [rules](#package-rules), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package promql/parser
 * [promql](#package-promql): `util/strutil`
@@ -536,16 +609,13 @@ Start package - cmd/prometheus
 [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [pkg/relabel](#package-pkgrelabel), [pkg/rulefmt](#package-pkgrulefmt), `pkg/timestamp`, `pkg/value`, [promql](#package-promql), [promql/parser](#package-promqlparser), [storage](#package-storage), [template](#package-template), [tsdb](#package-tsdb), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/stats`, `util/strutil`, [util/teststorage](#package-utilteststorage), `util/testutil`
 
 #### Packages Using (Importing) Package rules
-[cmd/prometheus](#package-cmdprometheus), [web](#package-web), [web/api/v1](#package-webapiv1)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package rules
 * [cmd/prometheus](#package-cmdprometheus): [pkg/rulefmt](#package-pkgrulefmt)
 * [web](#package-web): [pkg/rulefmt](#package-pkgrulefmt)
 * [web/api/v1](#package-webapiv1): [pkg/rulefmt](#package-pkgrulefmt), [template](#package-template)
 
-
-#### Packages Shielded From All Users Of Package rules
-[pkg/rulefmt](#package-pkgrulefmt)
 
 ### Package scrape
 
@@ -557,10 +627,11 @@ Start package - cmd/prometheus
 [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, `pkg/pool`, [pkg/relabel](#package-pkgrelabel), [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, `pkg/value`, [storage](#package-storage), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil), `util/osutil`
 
 #### Packages Using (Importing) Package scrape
-[cmd/prometheus](#package-cmdprometheus), [storage/remote](#package-storageremote), [web](#package-web), [web/api/v1](#package-webapiv1)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool), [storage/remote](#package-storageremote), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package scrape
 * [cmd/prometheus](#package-cmdprometheus): `pkg/pool`
+* [cmd/promtool](#package-cmdpromtool): `pkg/pool`
 * [storage/remote](#package-storageremote): `pkg/pool`, `util/osutil`
 * [web](#package-web): `pkg/pool`, `util/osutil`
 * [web/api/v1](#package-webapiv1): `pkg/pool`, `util/osutil`
@@ -579,14 +650,14 @@ Start package - cmd/prometheus
 [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil)
 
 #### Packages Using (Importing) Package storage
-[cmd/prometheus](#package-cmdprometheus), [promql](#package-promql), [promql/parser](#package-promqlparser), [rules](#package-rules), [scrape](#package-scrape), [storage/remote](#package-storageremote), [tsdb](#package-tsdb), [tsdb/agent](#package-tsdbagent), [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [util/teststorage](#package-utilteststorage), [web](#package-web), [web/api/v1](#package-webapiv1)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool), [promql](#package-promql), [promql/parser](#package-promqlparser), [rules](#package-rules), [scrape](#package-scrape), [storage/remote](#package-storageremote), [tsdb](#package-tsdb), [tsdb/agent](#package-tsdbagent), [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [util/teststorage](#package-utilteststorage), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package storage
-* [storage/remote](#package-storageremote): [tsdb/tsdbutil](#package-tsdbtsdbutil)
-* [tsdb/record](#package-tsdbrecord): [pkg/exemplar](#package-pkgexemplar), [tsdb/tsdbutil](#package-tsdbtsdbutil)
 * [promql/parser](#package-promqlparser): [pkg/exemplar](#package-pkgexemplar), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil)
 * [scrape](#package-scrape): `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil)
+* [storage/remote](#package-storageremote): [tsdb/tsdbutil](#package-tsdbtsdbutil)
 * [tsdb/index](#package-tsdbindex): [pkg/exemplar](#package-pkgexemplar), [tsdb/tsdbutil](#package-tsdbtsdbutil)
+* [tsdb/record](#package-tsdbrecord): [pkg/exemplar](#package-pkgexemplar), [tsdb/tsdbutil](#package-tsdbtsdbutil)
 * [tsdb/tombstones](#package-tsdbtombstones): [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), [tsdb/tsdbutil](#package-tsdbtsdbutil)
 
 
@@ -600,16 +671,18 @@ Start package - cmd/prometheus
 [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/gate`, `pkg/labels`, `pkg/logging`, `pkg/pool`, [pkg/relabel](#package-pkgrelabel), [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, `pkg/value`, `prompb`, [scrape](#package-scrape), [storage](#package-storage), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/osutil`
 
 #### Packages Using (Importing) Package storage/remote
-[cmd/prometheus](#package-cmdprometheus), [tsdb/agent](#package-tsdbagent), [web/api/v1](#package-webapiv1)
+[cmd/prometheus](#package-cmdprometheus), [documentation/examples/remote_storage/example_write_adapter](#package-documentationexamplesremotestorageexamplewriteadapter), [documentation/examples/remote_storage/remote_storage_adapter](#package-documentationexamplesremotestorageremotestorageadapter), [tsdb/agent](#package-tsdbagent), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package storage/remote
 * [cmd/prometheus](#package-cmdprometheus): `pkg/gate`, `prompb`
+* [documentation/examples/remote_storage/example_write_adapter](#package-documentationexamplesremotestorageexamplewriteadapter): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/gate`, `pkg/labels`, `pkg/logging`, `pkg/pool`, [pkg/relabel](#package-pkgrelabel), [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, `pkg/value`, `prompb`, [scrape](#package-scrape), [storage](#package-storage), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/osutil`
+* [documentation/examples/remote_storage/remote_storage_adapter](#package-documentationexamplesremotestorageremotestorageadapter): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/gate`, `pkg/labels`, `pkg/logging`, `pkg/pool`, [pkg/relabel](#package-pkgrelabel), [pkg/textparse](#package-pkgtextparse), `pkg/timestamp`, `pkg/value`, [scrape](#package-scrape), [storage](#package-storage), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal), `util/osutil`
 * [tsdb/agent](#package-tsdbagent): `pkg/gate`, `pkg/logging`, `pkg/pool`, [pkg/textparse](#package-pkgtextparse), `pkg/value`, `prompb`, [scrape](#package-scrape), `util/osutil`
 * [web/api/v1](#package-webapiv1): `pkg/gate`, `pkg/logging`, `prompb`
 
 
 #### Packages Shielded From All Users Of Package storage/remote
-`pkg/gate`, `prompb`
+`pkg/gate`
 
 ### Package template
 
@@ -637,15 +710,16 @@ Start package - cmd/prometheus
 [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, [storage](#package-storage), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal)
 
 #### Packages Using (Importing) Package tsdb
-[cmd/prometheus](#package-cmdprometheus), [promql](#package-promql), [tsdb/agent](#package-tsdbagent), [util/teststorage](#package-utilteststorage), [web](#package-web), [web/api/v1](#package-webapiv1)
+[cmd/prometheus](#package-cmdprometheus), [cmd/promtool](#package-cmdpromtool), [promql](#package-promql), [tsdb/agent](#package-tsdbagent), [util/teststorage](#package-utilteststorage), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 #### Packages Shielded From Users Of Package tsdb
+* [cmd/prometheus](#package-cmdprometheus): `tsdb/goversion`
+* [cmd/promtool](#package-cmdpromtool): `tsdb/goversion`, [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/wal](#package-tsdbwal)
 * [promql](#package-promql): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel), `tsdb/encoding`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/wal](#package-tsdbwal)
 * [tsdb/agent](#package-tsdbagent): `tsdb/goversion`, [tsdb/index](#package-tsdbindex)
 * [util/teststorage](#package-utilteststorage): [config](#package-config), [discovery](#package-discovery), `discovery/targetgroup`, [pkg/relabel](#package-pkgrelabel), `pkg/timestamp`, `tsdb/encoding`, `tsdb/goversion`, [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tombstones](#package-tsdbtombstones), [tsdb/wal](#package-tsdbwal)
 * [web](#package-web): `tsdb/goversion`
 * [web/api/v1](#package-webapiv1): `tsdb/goversion`
-* [cmd/prometheus](#package-cmdprometheus): `tsdb/goversion`
 
 
 #### Packages Shielded From All Users Of Package tsdb
@@ -673,7 +747,7 @@ Start package - cmd/prometheus
 `tsdb/chunkenc`, `tsdb/errors`, `tsdb/fileutil`
 
 #### Packages Using (Importing) Package tsdb/chunks
-[storage](#package-storage), [storage/remote](#package-storageremote), [tsdb](#package-tsdb), [tsdb/agent](#package-tsdbagent), [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal)
+[cmd/promtool](#package-cmdpromtool), [storage](#package-storage), [storage/remote](#package-storageremote), [tsdb](#package-tsdb), [tsdb/agent](#package-tsdbagent), [tsdb/index](#package-tsdbindex), [tsdb/record](#package-tsdbrecord), [tsdb/tsdbutil](#package-tsdbtsdbutil), [tsdb/wal](#package-tsdbwal)
 
 #### Packages Shielded From Users Of Package tsdb/chunks
 * [storage](#package-storage): `tsdb/fileutil`
@@ -690,7 +764,7 @@ Start package - cmd/prometheus
 [pkg/exemplar](#package-pkgexemplar), `pkg/labels`, [storage](#package-storage), `tsdb/chunkenc`, [tsdb/chunks](#package-tsdbchunks), `tsdb/encoding`, `tsdb/errors`, `tsdb/fileutil`, [tsdb/tsdbutil](#package-tsdbtsdbutil)
 
 #### Packages Using (Importing) Package tsdb/index
-[tsdb](#package-tsdb), [web](#package-web), [web/api/v1](#package-webapiv1)
+[cmd/promtool](#package-cmdpromtool), [tsdb](#package-tsdb), [web](#package-web), [web/api/v1](#package-webapiv1)
 
 ### Package tsdb/record
 
