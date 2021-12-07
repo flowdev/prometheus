@@ -1,3 +1,3 @@
 #!/bin/sh
 
-spaghetti-cutter -e -s --doc='cmd/prometheus,discovery/**,tsdb/**'
+spaghetti-analyzer -t -s --doc='cmd/prometheus,discovery/**,tsdb/**'
