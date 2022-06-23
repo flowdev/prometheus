@@ -57,7 +57,7 @@
 ### Legend
 
 * Rows - Importing packages
-* columns - Imported packages
+* Columns - Imported packages
 
 
 #### Meaning Of Row And Row Header Formatting
@@ -65,7 +65,7 @@
 * **Bold** - God package (can use all packages)
 * `Code` - Database package (can only use tool and other database packages)
 * _Italic_ - Tool package (foundational, no dependencies)
-* no formatting - Standard package (can only use tool and database packages)
+* No formatting - Standard package (can only use tool and database packages)
 
 
 #### Meaning Of Letters In Table Columns
